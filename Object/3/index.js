@@ -5,5 +5,5 @@ function isEmpty(obj) {
     return true;
 }
 
-console.log(isEmpty({}))
-console.log(isEmpty({name: "John", surname: "Smith"}))
+console.log(isEmpty({}));
+console.log(isEmpty({name: "John", surname: "Smith"}));

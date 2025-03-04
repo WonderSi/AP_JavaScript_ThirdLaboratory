@@ -5,4 +5,4 @@ let myBrowser = {
 
 for (let key in myBrowser) {
     console.log(`${key}: ${myBrowser[key]}`)
-}
+};
