@@ -2,7 +2,7 @@ function Browser(name, version) {
     this.name = name;
     this.version = version;
     this.aboutBrowser = function () {
-        console.log(`Browser: ${this.name}, version: ${version}`)
+        console.log(`Browser: ${this.name}, version: ${this.version}`)
     }
 }
 

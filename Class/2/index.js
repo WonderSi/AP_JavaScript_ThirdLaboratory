@@ -10,7 +10,7 @@ class Rabbit extends Animal {
     }
 }
 let rabbit = new Rabbit("Белый кролик");
-console.log(rabbit.name);
+console.log(rabbit.name, rabbit.created);
 
 // Необходимо вызвать super() для вызова конструктора родительского класса (Animal)
 // Это нужно для корректной инициализации свойств, унаследованных от родителя
